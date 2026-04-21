@@ -3,63 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>BH Tântric Massage</title>
 
 <style>
 
 body{
 margin:0;
-font-family: 'Segoe UI', sans-serif;
+font-family:Arial;
 background:#f4f7f8;
 }
 
-/* HEADER */
-header{
-background: linear-gradient(135deg,#0aa7a7,#067c8a);
+/* HERO */
+.hero{
+background:linear-gradient(135deg,#0aa7a7,#067c8a);
 color:white;
-padding:60px 20px;
+padding:70px 20px;
 text-align:center;
 }
 
-header h1{
-margin:0;
-font-size:32px;
+.hero h1{
+font-size:34px;
+margin-bottom:10px;
 }
 
-header p{
+.hero p{
+font-size:18px;
 opacity:0.9;
 }
 
-/* BOTÃO PRINCIPAL */
+/* BOTÕES */
 .btn{
 display:inline-block;
 margin-top:20px;
-padding:12px 20px;
+padding:15px 25px;
 background:#25D366;
 color:white;
 text-decoration:none;
-border-radius:8px;
+border-radius:10px;
 font-weight:bold;
-}
-
-/* MENU */
-nav{
-position:sticky;
-top:0;
-background:white;
-display:flex;
-justify-content:center;
-gap:20px;
-padding:15px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
-z-index:10;
-}
-
-nav a{
-text-decoration:none;
-color:#067c8a;
-font-weight:bold;
+font-size:16px;
 }
 
 /* SEÇÕES */
@@ -81,16 +63,14 @@ background:white;
 padding:20px;
 border-radius:15px;
 box-shadow:0 8px 20px rgba(0,0,0,0.08);
-transition:0.3s;
 }
 
-.card:hover{
-transform:translateY(-5px);
-}
-
-/* TITULOS */
-h2{
-color:#067c8a;
+/* DESTAQUE */
+.highlight{
+background:#fff;
+border-left:5px solid #25D366;
+padding:20px;
+margin:20px 0;
 }
 
 /* WHATSAPP */
@@ -116,106 +96,108 @@ padding:30px;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<header>
+<!-- TOPO VENDEDOR -->
+<div class="hero">
 <h1>BH Tântric Massage</h1>
-<p>Experiências terapêuticas e sensoriais exclusivas</p>
+
+<p>Relaxamento profundo, prazer consciente e experiências únicas em Belo Horizonte</p>
 
 <a class="btn" href="https://wa.me/553197137417" target="_blank">
-Agendar Agora no WhatsApp
+AGENDAR AGORA NO WHATSAPP
 </a>
-</header>
+</div>
 
-<nav>
-<a href="#servicos">Serviços</a>
-<a href="#equipe">Equipe</a>
-<a href="#espaco">Espaço</a>
-<a href="#contato">Contato</a>
-</nav>
+<!-- PROVA / CONEXÃO -->
+<section>
+<div class="highlight">
+🔥 Atendimento reservado, discreto e profissional no centro de BH  
+📍 Localização privilegiada na Av. Afonso Pena  
+🧘 Experiências que vão além do físico — corpo e mente conectados  
+</div>
+</section>
 
-<section id="servicos">
-<h2>Serviços</h2>
+<!-- SERVIÇOS -->
+<section>
+<h2>Escolha sua experiência</h2>
 
 <div class="grid">
 
 <div class="card">
 <h3>Massagem Tântrica</h3>
-<p>Terapia para ansiedade, traumas e desbloqueio energético. Promove relaxamento profundo e expansão do prazer consciente.</p>
+<p>Liberação emocional, relaxamento profundo e expansão do prazer.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 <div class="card">
 <h3>Massagem Nuru</h3>
-<p>Deslizamento corporal com gel especial, criando conexão intensa e experiência sensorial única.</p>
+<p>Deslizamento corporal intenso com conexão e sensação única.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 <div class="card">
 <h3>Massagem Mútua</h3>
-<p>Interação entre cliente e terapeuta para uma experiência mais livre e emocional.</p>
+<p>Experiência interativa e sensorial sem bloqueios.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 <div class="card">
 <h3>Massagem Língam</h3>
-<p>Foco no autoconhecimento masculino, proporcionando orgasmos intensos e controle do prazer.</p>
+<p>Autoconhecimento masculino e controle do prazer.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 <div class="card">
 <h3>Massagem Voyeur</h3>
-<p>Experiência visual e mental com ambiente preparado para estímulos sensoriais.</p>
+<p>Estimulação visual e mental em ambiente preparado.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 <div class="card">
 <h3>Massagem Prostática</h3>
-<p>Técnica terapêutica para saúde masculina, alívio de dores e melhora da circulação.</p>
+<p>Saúde masculina e bem-estar completo.</p>
+<a class="btn" href="https://wa.me/553197137417">Quero agendar</a>
 </div>
 
 </div>
 </section>
 
-<section id="equipe">
-<h2>Nossa Equipe</h2>
-
-<div class="grid">
+<!-- EQUIPE -->
+<section>
+<h2>Profissionais Especializados</h2>
 
 <div class="card">
 <h3>Maria Júlia</h3>
-<p>Mais de 10.000 horas de experiência. Especialista em tântrica, nuru, mútua e terapias sensoriais.</p>
+<p>Mais de 10.000 atendimentos realizados. Especialista em terapias sensoriais profundas.</p>
 </div>
 
 <div class="card">
-<h3>Terapeuta Corporal</h3>
-<p>Foco em relaxamento profundo e alívio de dores musculares.</p>
-</div>
-
-<div class="card">
-<h3>Cromoterapia</h3>
-<p>Equilíbrio emocional através de cores e energia.</p>
-</div>
-
+<h3>Equipe Qualificada</h3>
+<p>Atendimento humanizado, seguro e totalmente discreto.</p>
 </div>
 
 </section>
 
-<section id="espaco">
+<!-- SALAS -->
+<section>
 <h2>Sublocação de Salas</h2>
 
 <div class="card">
-<p>Espaço premium na Avenida Afonso Pena com:</p>
+<p>Espaço premium completo na Av. Afonso Pena.</p>
 
 <ul>
-<li>Maca e tatame</li>
 <li>Ar-condicionado</li>
 <li>Banheiro privativo</li>
 <li>Ambiente reservado</li>
 <li>Portaria 24h</li>
 </ul>
 
-<p><b>Valor:</b> R$ 65/hora</p>
+<p><b>R$ 65/hora</b></p>
 
-<a class="btn" href="https://wa.me/553197137417" target="_blank">
+<a class="btn" href="https://wa.me/553197137417">
 Reservar Sala
 </a>
 
@@ -223,20 +205,19 @@ Reservar Sala
 
 </section>
 
-<section id="contato">
+<!-- CONTATO -->
+<section>
 <h2>Contato</h2>
 
 <p><b>Endereço:</b><br>
 Av. Afonso Pena, 748 – Sala 2112<br>
 Centro – Belo Horizonte</p>
 
-<p><b>Telefone:</b> +55 31 9713-7417</p>
-
-<p><b>Email:</b> bhtantricmassage@gmail.com</p>
+<p><b>WhatsApp:</b> +55 31 9713-7417</p>
 
 <p>
 <a href="https://www.instagram.com/bhtantricmassage/" target="_blank">
-Instagram Oficial
+Ver Instagram
 </a>
 </p>
 
